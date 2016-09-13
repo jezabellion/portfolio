@@ -1,0 +1,1084 @@
+
+/*-----------------------------  2016 Portfolio Adjustments  ------------------------------*/
+
+/*------------- All Portfolio Pages --------------*/
+
+
+.background-header-section {
+    height: 100vh;
+}
+
+.blurb-section {
+    padding-top: 4em;
+    padding-bottom: 4em;
+}
+
+
+.blurb-section .divider,
+.blurb-section h4,
+.blurb-section h5 {
+    margin-top: 3rem;
+}
+
+.next-page-section {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+.portfolio-page .background-header-section .divider {
+    background-color: #FFF;
+}
+
+.next-page-section p {
+    font-size: 1.7rem;
+    color: #FFF;
+    display: inline-block;
+}
+
+.next-page-section {
+        text-align: center;
+}
+
+.portfolio-page .next-page-section > p {
+    font-size: 2.2rem;
+    font-style: italic;
+    margin-bottom: 5px;
+}
+
+.portfolio-page .next-page-section a:hover p {
+    text-decoration: underline;
+
+}
+
+/*------- General Portfolio PageMedia Querries ------------*/
+
+
+@media only screen and (max-width: 40em) {
+
+    .portfolio-page .title-main {
+    margin: 30vh 0vh;
+}
+
+.portfolio-page h5 {
+    font-size: 0.9rem;
+    }
+
+.portfolio-page h4 {
+    font-size: 1.4rem;
+    }
+
+.blurb-section .divider,
+    .blurb-section h4,
+    .blurb-section h5 {
+         margin-top: 2rem;
+    }
+
+.portfolio-page .blurb-section {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+
+.next-page-section p {
+    font-size: 1.0rem;
+}
+
+.portfolio-page .next-page-section > p {
+    font-size: 1.2rem;
+}
+
+.next-page-section {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.portfolio-image-spacer img {
+    margin-bottom: 1.0rem !Important;
+}
+}
+
+
+
+/*------------------ Page Specific -------------------*/
+
+/*--
+Accent colors:
+Lacquer: #475385
+The Fruits: #6EC095
+--*/
+
+
+/*------------- No pleasure -----------------------*/
+
+
+.no-pleasure .title-main .divider {
+    background-color: #333333;
+}
+
+.no-pleasure .background-header-section {
+    background-size: cover;
+    background-image: linear-gradient( to top right, #cccccc, #e6e6e6);
+}
+
+.no-pleasure .next-page-section p,
+.no-pleasure .blurb-section h4,
+.no-pleasure .blurb-section h5,
+.no-pleasure h1 {
+  color: #333333;
+}
+
+.no-pleasure .next-page-section .divider,
+.no-pleasure .blurb-section .divider {
+  background-color: #333333;
+}
+
+.no-pleasure .portfolio-image-spacer img {
+    margin-bottom: 2.5rem;
+}
+
+.no-pleasure .next-page-section {
+    background-color: #efefef;
+}
+
+
+
+/*------------- Haus Brandenburg -----------------------*/
+
+
+/*Haus B
+Accent color: #381c58
+*/
+
+
+.haus-brandenburg .title-main .divider {
+    background-color: #381c58;
+}
+
+.haus-brandenburg .background-header-section {
+    background-size: cover;
+    background-image: linear-gradient( to top right, #cccccc, #e6e6e6);
+}
+
+.zwei-gaerten .background-header-section,
+.haus-brandenburg .background-header-section {
+    position: relative;
+}
+
+.haus-brandenburg .background-header-section img {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.zwei-gaerten .title-main,
+.haus-brandenburg .title-main {
+    position: relative;
+}
+
+.zwei-gaerten .title-main h1,
+.haus-brandenburg .title-main h1 {
+    z-index: 1;
+}
+
+.haus-brandenburg .blurb-section h4,
+.haus-brandenburg .blurb-section h5{
+    color: #381c58;
+}
+
+.blurb-section .divider {
+/*    background-color: #cccccc;*/
+}
+
+.haus-brandenburg .next-page-section {
+    background-color: #efefef;
+}
+
+/*------------- Content --------------*/
+
+.haus-brandenburg .portfolio-image-spacer img {
+    margin-bottom: 1.5rem;
+}
+
+.haus-brandenburg .portfolio-image-spacer img:nth-child(3),
+.haus-brandenburg .portfolio-image-spacer img:nth-child(4),
+.haus-brandenburg .portfolio-image-spacer img:nth-child(5),
+.haus-brandenburg .portfolio-image-spacer img:nth-child(6){
+    border: solid 1px lightgrey;
+}
+
+
+/*------------- Footer --------------*/
+
+.haus-brandenburg .footer {
+    background-color: #381c58;
+}
+
+.haus-brandenburg .next-page-section .divider,
+.background-header-section .divider {
+    background-color: #381c58;
+}
+
+.haus-brandenburg .next-page-section p {
+    color: #381c58;
+}
+
+
+
+
+
+
+/*--------------- Zwei Gaerten -----------------*/
+
+/*--
+Accent colors:
+Lacquer: #4fc2be
+--*/
+
+.zwei-gaerten .background-header-section {
+    background-size: cover;
+    background-color: #4fc2be;
+}
+
+.zwei-gaerten .background-header-section {
+    position: relative;
+}
+
+.zwei-gaerten .background-header-section img {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    max-height: 80vh;
+      top: 50%;
+  transform: translateY(-50%);
+}
+
+.zwei-gaerten .blurb-section h4,
+.zwei-gaerten .blurb-section h5{
+    color: #4d4d4d;
+}
+
+.blurb-section .divider {
+    background-color: #4d4d4d;
+}
+
+
+/*------------- Content --------------*/
+
+.zwei-gaerten .content-section-one{
+    background-color: #4fc2be;
+}
+.zwei-gaerten .portfolio-image-spacer img {
+    margin-bottom: 1.5rem;
+}
+
+.zwei-gaerten .content-section-two img {
+    margin: 2rem;
+    max-width: 80%;
+    -webkit-box-shadow: 10px 10px 34px 8px rgba(189,187,189,1);
+-moz-box-shadow: 10px 10px 34px 8px rgba(189,187,189,1);
+box-shadow: 10px 10px 34px 8px rgba(189,187,189,1);
+}
+
+.zwei-gaerten .background-color {
+    background-image: linear-gradient( to top right, #d9d9d9, #e6e6e6);
+    }
+
+/*------------- Footer --------------*/
+
+.zwei-gaerten .footer {
+    background-color: #4fc2be;
+}
+
+.zwei-gaerten .next-page-section .divider,
+.background-header-section .divider {
+    background-color: #4d4d4d;
+}
+
+.zwei-gaerten .next-page-section p {
+    color: #4d4d4d;
+}
+
+
+/*------------ Zwei Gaerten media querries -----------*/
+
+@media only screen and (min-width: 40.063em) {
+    .zwei-gaerten .content-section-two img:first-child {
+        margin-top: 5rem;
+    }
+    .zwei-gaerten .content-section-two img:last-child {
+        margin-bottom: 5rem;
+    }
+  .zwei-gaerten .content-section-two img {
+    margin-left: 0.5rem;
+}
+
+}
+
+
+
+/*-------------------- Lacquer -----------------------*/
+
+/*--
+Accent colors:
+Lacquer: #475385
+--*/
+
+.lacquer .background-header-section {
+    background: url(../css/lacquer-background-image.jpg) no-repeat bottom center;
+            background-size: cover;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            /*height: 100vh !important;*/
+            overflow: hidden !important;
+
+}
+
+.lacquer .background-header-section > .title-main {
+  height:100vh !important;
+  overflow: scroll !important;
+  -webkit-overflow-scrolling: touch !important;
+}
+
+.blurb-section h4,
+.blurb-section h5{
+    color: #475385;
+}
+
+.blurb-section .divider {
+    background-color: #475385;
+}
+
+.lacquer .next-page-section {
+    background-color: lightgray;
+}
+
+/*------------- Content --------------*/
+
+.lacquer .portfolio-image-spacer img {
+    margin-bottom: 1.5rem;
+}
+
+
+/*------------- Footer --------------*/
+
+.lacquer .footer {
+    background-color: #475385;
+}
+
+.lacquer .next-page-section .divider,
+.background-header-section .divider {
+    background-color: #475385;
+}
+
+.next-page-section p {
+    color: #475385;
+}
+
+
+
+
+
+/*---------------------- The Fruits ---------------------*/
+
+/*--
+Accent colors:
+The Fruits:
+Green: #6EC095
+Blue: #4C5567
+Orange: #FF9967
+--*/
+
+
+.the-fruits .background-header-section {
+    background: url(../img/the-fruits/the-fruits-brackground.jpg) no-repeat center center;
+    background-size: cover;
+    background-color: #4C5567;
+}
+
+.the-fruits h1 {
+    color: #FF9967;
+}
+
+.the-fruits .title-main .divider {
+    background-color: #6EC095;
+}
+
+.the-fruits .blurb-section h4,
+.the-fruits .blurb-section h5{
+    color: #6EC095;
+}
+
+.the-fruits .blurb-section .divider {
+    background-color: #6EC095;
+}
+
+/*------------- Content --------------*/
+
+.the-fruits .content-section-one {
+    background-color: #4C5567;
+}
+
+.background-color {
+    background-color: #efefef;
+}
+
+.content-section-one img {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.fullWidth {
+   width: 100%;
+   margin-left: auto;
+   margin-right: auto;
+   max-width: initial;
+}
+
+.the-fruits .content-section-two img {
+    padding: 2rem;
+}
+
+.content-section-two {
+/*    background-color: red;*/
+}
+
+
+
+
+
+/*------------- next page section --------------*/
+
+.portfolio-page .the-fruits body {
+    background-color: #FFF;
+}
+
+/*------------- Footer --------------*/
+
+.the-fruits .footer {
+    background-color: #4C5567;
+}
+
+.the-fruits .next-page-section .divider,
+.background-header-section .divider {
+    background-color: #6EC095;
+}
+
+.the-fruits .next-page-section p {
+    color: #6EC095;
+}
+
+
+/*----------- The Fruits PageMedia Querries ----------*/
+
+
+
+@media only screen and (max-width: 40em) {
+
+
+}
+
+@media only screen and (min-width: 40.063em) {
+    .the-fruits .content-section-two .iphone img {
+        margin-top: 20rem;
+    }
+    .the-fruits .content-section-two .ipad img {
+        margin-top: 5rem;
+    }
+    .the-fruits .perspective-mockup {
+        margin-bottom: 8rem;
+    }
+} /* min-width 641px, medium screens */
+
+
+
+
+/*-------------------- Real Estate Fair -----------------------*/
+
+/*--
+Accent colors:
+Lacquer: #475385
+--*/
+
+.real-estate-fair .background-header-section {
+    background: url(../img/real-estate-fair/real-estate-background.jpg) no-repeat bottom center;
+    background-size: cover;
+    background-color: #abb5bf;
+}
+
+.real-estate-fair .background-header-section .divider {
+    background-color: #3e6890;
+}
+
+.real-estate-fair .blurb-section h4,
+.real-estate-fair .blurb-section h5{
+    color: #3e6890;
+}
+
+.real-estate-fair .blurb-section .divider {
+    background-color: #3e6890;
+}
+
+.real-estate-fair .next-page-section {
+    background-color: #efefef;
+}
+
+/*------------- Content --------------*/
+
+.real-estate-fair .portfolio-image-spacer img {
+    margin-bottom: 1.5rem;
+}
+
+
+/*------------- Footer --------------*/
+
+.real-estate-fair .footer {
+    background-color: #3e6890;
+}
+
+.real-estate-fair .next-page-section .divider,
+.background-header-section .divider {
+    background-color: #3e6890;
+}
+
+.real-estate-fair .next-page-section p {
+    color: #3e6890;
+}
+
+
+/*----------  Portfolio Page scroll to top  ----------*/
+
+/*--
+.footer {
+    position: relative;
+}
+
+.return-to-top {
+    position: absolute;
+    right: 100px;
+    bottom: 100px;
+}
+
+.return-to-top svg {
+    height: 50px;
+    width: 50px;
+}
+--*/
+
+
+
+
+
+
+/*----------------------------------- Home Page------------- --------------------------*/
+
+/*------------- Nav ---------------*/
+
+.name img {
+    height: 35px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    z-index: 1;
+}
+
+.name p {
+    display: inline-block;
+    margin-left: 10px !important;
+    color: #FFF;
+}
+
+.top-bar-section ul li > a {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.top-bar-section ul li {
+    margin: 0 0.733rem;
+}
+
+nav.top-bar {
+    text-align: center;
+}
+
+section.top-bar-section {
+    display: inline-block;
+}
+
+@media only screen and (min-width: 40em) {
+    section.top-bar-section {
+        display: block;
+    }
+}
+
+.top-bar-section ul li > a {
+    font-family: 'Lora', serif;
+    position: relative;
+}
+
+
+/*------------- Background Images ---------------*/
+
+body {
+    background-color: #f9f9f9;
+}
+
+.container {
+    height: 100vh;
+    max-width: 100%;
+    max-height: 100%;
+    background: url(../css/a-man-on-the-move.jpg) no-repeat center top;
+    background-size: cover;
+    background-color: #0b0b0b;
+}
+
+.jerryface {
+    height: 100vh;
+    background: url(jerryface.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+.phoneline {
+   height: 500px;
+   padding: 30px;
+   max-width: 100%;
+   max-height: 100%;
+   background: url(drop-me-a-line.jpg) no-repeat center center;
+   background-size: cover;
+}
+
+/* ------ Text ------------*/
+
+::-moz-selection {
+background-color: #2caae2;
+color: #ffffff;
+}
+
+::selection {
+background-color: #2caae2;
+color: #ffffff;
+}
+
+
+h1,
+h2 {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+
+h1 {
+  font-size: 3.4rem;
+}
+
+h2 {
+    font-style: italic;
+    font-size: 2.4rem;
+}
+
+h3,
+h4,
+h5,
+h6,
+li span,
+.icon ul,
+p {
+   font-family: 'Lora', serif;
+   text-align: center;
+}
+
+h3 {
+    font-size: 3.2rem;
+    margin: 40px 0px 20px 0px;
+}
+
+h4 {
+    margin-top: 20px;
+    font-size: 1.8rem;
+}
+
+p,
+.icon li{
+    color: #808284;
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+.icon li{
+    font-size: 1.0rem;
+    line-height: 1.6;
+}
+
+h6 {
+    font-size: 0.8rem;
+}
+
+
+/* --------------  About Me --------------------- */
+
+#aboutme h3
+ {
+color: #f9f9f9;
+    }
+
+#aboutme p {
+    color: lightgray;
+    font-style: italic;
+}
+
+.jerryface b {
+    font-style: normal;
+}
+/* --------------  Map --------------------- */
+
+.berlinmap {
+    height: 250px;
+    background: url(Berlin.jpg) no-repeat center center;
+    background-size: cover;
+    z-index: -1;
+    position: relative;
+}
+.mapblurb {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+/* --------------  Positioning --------------------- */
+
+.title-main {
+    margin: 30vh 0vh;
+}
+
+#contact {
+    color: #FFF;
+    line-height: 1.6;
+}
+
+#contact h4 {
+    font-size: 1.6rem;
+}
+
+#contact p a {
+    text-decoration: none;
+}
+
+#contact p a:hover {
+    color: white;
+}
+
+#headline {
+    color: #FFF;
+}
+
+
+/* --------------  What i do section --------------------- */
+
+.icon ul {
+    list-style-position: inside;
+}
+
+#what-i-do h4 {
+    margin-bottom: 80px;
+
+}
+
+.icon > img {
+    padding: 0px 20px;
+}
+
+.divider {
+    width: 60px;
+    background-color: #2caae2;
+    margin: 20px auto;
+}
+
+.thick {
+    height: 5px;
+}
+
+.thin {
+    height: 2.5px;
+}
+
+
+/* ---------- portfolio effects --------*/
+
+figure:hover {
+    background: #2caae2;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+   /* -- padding-bottom: 1px; ---*/
+}
+
+
+.home-page img {
+    position: relative;
+    z-index: -1;
+}
+
+
+figure {
+    margin: 0px;
+    position: relative;
+}
+
+figcaption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  display: none;
+}
+
+.divider-white {
+    width: 60px;
+    height: 2.5px;
+    background-color: #FFF;
+    margin: auto;
+}
+
+figcaption h4,
+figcaption h5 {
+    color: #FFF;
+}
+figcaption h4 {
+}
+
+figcaption h5 {
+    margin-top: 10px;
+    font-style: italic;
+}
+
+figure:hover figcaption {
+    -webkit-transition: 2s;
+    transition: 2s;
+    display: block;
+
+}
+
+
+/* ---------- Underline Hover Effect -----------------*/
+
+.top-bar-section ul li > a:before,
+.tabs dd > a:before,
+.tabs .tab-title > a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  -ms-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.top-bar-section ul li > a:before {
+    background-color: #FFF;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.top-bar-section ul li > a:hover:before,
+.tabs dd > a:hover:before,
+.tabs .tab-title > a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  -ms-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+.tabs dd.active a, .tabs .tab-title.active a {
+      visibility: visible;
+  -webkit-transform: scaleX(1);
+  -ms-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+
+/* ----------- Arrows ---------- */
+
+#down-arrow {
+    -ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+    transform: rotate(180deg);
+}
+
+
+.special {
+    margin-top: 5rem;
+    padding-left: 0px;
+    padding-right: 0px;
+    min-width: 40px;
+    max-width: 50px;
+    z-index: 1;
+}
+
+.special > svg {
+    padding: 10px;
+}
+
+a:hover .st1 {
+    fill: #2caae2;
+}
+
+
+/*--------- Contact ---------- */
+
+p a {
+    text-decoration: underline;
+    color: #FFF;
+}
+
+p a:hover {
+    color: #2caae2;
+}
+
+
+/* ----------- Footer ---------- */
+
+.footer {
+    background-color: #808284;
+    height: 90px;
+    position: relative;
+}
+
+.footer > h6 {
+    color: #FFF;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.footer h6 a {
+    color: #999b9c;
+}
+
+.footer img {
+    max-height: 20px;
+}
+
+
+
+/* ---------------------------- Responsive -------------------------- */
+
+/* ----------- Media Queries ---------- */
+
+/* ----------- Mobile ---------- */
+
+@media only screen and (max-width: 40em) {
+
+.title-main {
+    margin: 10vh 0vh;
+}
+
+.special {
+    margin-top: 2rem;
+}
+
+h1 {
+  font-size: 2.4rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 2.0rem;
+    margin: 20px 0px;
+}
+
+h4 {
+    font-size: 1.4rem;
+}
+
+p {
+    font-size: 1.0rem;
+    line-height: 1.4;
+}
+
+.divider {
+    margin: 10px auto;
+}
+
+#contact {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+/*------ what i do icons ---------------*/
+
+.icon > img {
+    padding: 0vw 8vw;
+}
+
+/* --------------- portfolio ------------------------ */
+
+
+.tabs dd > a, .tabs .tab-title > a {
+    font-size: 1.1rem;
+}
+
+
+} /* max-width 640px, mobile-only styles, use when QAing mobile issues */
+/* --------------- Mobile Ends ------------------------ */
+
+
+
+
+/* --------------- Large Screens ------------------------ */
+
+@media only screen and (min-width: 64.063em) {
+
+.real-estate-fair .background-header-section,
+.lacquer .background-header-section,
+.the-fruits .background-header-section,
+.phoneline,
+.jerryface,
+.container {
+  background-attachment: fixed;
+}
+
+
+   .portfolio-page h1 {
+      font-size: 4.5rem;
+    }
+
+    h2 {
+        font-size: 3.0rem;
+    }
+
+} /* min-width 1441px, xlarge screens */
+
+
+    @media only screen and (min-width: 90.063em) {
+    h1 {
+        font-size: 5.5rem;
+    }
+    h2 {
+        font-size: 4.0rem;
+    }
+}
+
+@media only screen and (min-width: 120.063em) {
+    h1 {
+        font-size: 6.5rem;
+    }
+    h2 {
+        font-size: 4.5rem;
+    }
+
+} /* min-width 1921px, xxlarge screens */

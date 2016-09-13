@@ -105,7 +105,91 @@
 Accent colors:
 Lacquer: #475385
 The Fruits: #6EC095
+YNS: #41b878
 --*/
+
+/*------------- YNS -----------------------*/
+
+.yns h1 {
+  color: #FFFFFF;
+}
+
+.yns .title-main .divider {
+    background-color: #FFFFFF;
+}
+
+.yns .background-header-section {
+          background-image: url("yns-bg-image.jpg");
+          background-size: cover;
+}
+
+.yns .next-page-section p,
+.yns .blurb-section h4 {
+  color: #41b878;
+}
+
+
+.yns .blurb-section h5
+ {
+  color: #333333;
+}
+
+.yns .blurb-section .divider {
+  background-color: #41b878;
+}
+
+.yns .next-page-section .divider
+{
+  background-color: #808284;
+}
+
+.yns .portfolio-image-spacer img {
+    margin-bottom: 2.5rem;
+}
+
+.yns .next-page-section {
+    background-color: #efefef;
+}
+
+
+
+
+
+/*------------- Transistor -----------------------*/
+
+
+.transistor .title-main .divider {
+    background-color: #FFFFFF;
+}
+
+.transistor .background-header-section {
+          background-image: url("jerry-blur.jpg");
+          background-size: cover;
+}
+
+.transistor .next-page-section p,
+.transistor .blurb-section h4,
+.transistor .blurb-section h5
+ {
+  color: #333333;
+}
+
+.transistor h1 {
+  color: #FFFFFF;
+}
+
+.transistor .next-page-section .divider,
+.transistor .blurb-section .divider {
+  background-color: #333333;
+}
+
+.transistor .portfolio-image-spacer img {
+    margin-bottom: 2.5rem;
+}
+
+.transistor .next-page-section {
+    background-color: #efefef;
+}
 
 
 /*------------- No pleasure -----------------------*/
@@ -1065,6 +1149,7 @@ p {
 
 
     @media only screen and (min-width: 90.063em) {
+      .portfolio-page h1, 
     h1 {
         font-size: 5.5rem;
     }

@@ -77,9 +77,6 @@ background-position: center;;
 
 
 
-
-
-
 /*-------- A-Symmetries -------*/
 
 .landingpage .starwars h1,
@@ -106,32 +103,43 @@ margin-right: 0px !important;
 
 
 
-/*------------- Blog -----------------------*/
+/*------------------------------- Blog --------------------------------*/
 
-.blog .blog-header {
-  color: #2caae2;
-  font-style: normal;
-  padding-top: 50px;
-}
-
-.blog p {
-  text-align: left;
-}
 
 .blog .background-header-section {
           background-image: url("blog-bg.jpg");
           background-size: cover;
 }
 
+.blog .background-header-section .divider {
+  background-color: #2caae2;
+}
+
+.blog h1 span {
+  color: #2caae2;
+}
+
+
+/*------- Content ---------------*/
+
+.blog .blurb-section p,
+.blog h4 {
+  text-align: left;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+.blog h3 {
+    color: #2caae2;
+    font-style: normal;
+}
+
+
 .blog .next-page-section p,
 .blog .blurb-section h4,
 .blog .blurb-section h5
  {
   color: #333333;
-}
-
-.blog h1 {
-  color: #FFFFFF;
 }
 
 .blog .next-page-section .divider,

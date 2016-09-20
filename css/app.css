@@ -1,3 +1,109 @@
+/*------------- Landing Page -----------------------*/
+
+/*-------- Landing Page Images -------*/
+
+.landingpage .wolf {
+  background-image: url("pulp.jpg");
+  background-size: cover;
+  height: 100vh;
+  background-color: #333333;
+}
+
+.landingpage .american {
+  background-image: url("american.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+
+.landingpage .starwars {
+  background-image: url("starwars.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+
+.landingpage .et {
+  background-image: url("ET.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+
+@media only screen and (max-width: 70em) {
+
+  .landingpage .wolf {
+background-position: right;
+  }
+  .landingpage .starwars {
+background-position: center;;
+  }
+}
+
+/*-------- Landing Page Styles -------*/
+
+.landingpage .et,
+.landingpage .starwars,
+.landingpage .american,
+.landingpage .wolf {
+  display: flex;
+  align-items: center;
+}
+
+.super-thick {
+      height: 10px;
+      width: 100px !important;
+}
+
+.landingpage button, .button  {
+  font-family: lora, serif; !important;
+}
+
+/*-------- Typography -------*/
+
+.landingpage h1 {
+   font-size: 4.5rem;
+ }
+
+ @media only screen and (min-width: 90.063em) {
+   .landingpage h1 {
+     font-size: 6.0rem;
+ }
+}
+
+@media only screen and (min-width: 120.063em) {
+ .landingpage h1 {
+     font-size: 7.0rem;
+ }
+
+} /* min-width 1921px, xxlarge screens */
+
+
+
+
+
+
+/*-------- A-Symmetries -------*/
+
+.landingpage .starwars h1,
+.wolf h1 {
+  text-align: left;
+}
+
+.landingpage .starwars .super-thick,
+.landingpage .wolf .super-thick {
+      margin-left: 0px !important;
+}
+
+.landingpage .et h1,
+.landingpage .et,
+.landingpage .american h1 {
+    text-align: right;
+}
+
+.landingpage .et .super-thick,
+.landingpage .american .super-thick {
+margin-right: 0px !important;
+}
+
+
 
 
 /*------------- Blog -----------------------*/

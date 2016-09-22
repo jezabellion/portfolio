@@ -1341,6 +1341,9 @@ p {
     h2 {
         font-size: 4.0rem;
     }
+    #sub-header  {
+        font-size: 3.0rem;
+    }
 }
 
 @media only screen and (min-width: 120.063em) {

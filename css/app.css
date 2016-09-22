@@ -103,7 +103,7 @@ margin-right: 0px !important;
 
 
 
-/*------------------------------- Blog --------------------------------*/
+/*------------------------------------ Blog ------------------------------------*/
 
 
 .blog .background-header-section {
@@ -132,6 +132,23 @@ margin-right: 0px !important;
 .blog h3 {
     color: #2caae2;
     font-style: normal;
+}
+
+.blog .blog-header h4:first-child {
+    margin-top: 0px;
+}
+
+@media only screen and (max-width: 40em) {
+  .blog .blurb-section h3,
+    .blog .blog-intro p {
+    text-align: left;
+  }
+  .blog .blurb-section h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+
 }
 
 

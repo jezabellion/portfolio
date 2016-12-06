@@ -286,12 +286,65 @@ margin-right: 0px !important;
 
 /*------------------ Page Specific -------------------*/
 
+
 /*--
 Accent colors:
 Lacquer: #475385
 The Fruits: #6EC095
 YNS: #41b878
+MF: #50586b
+    #3caeef
+
 --*/
+
+/*------------- Meteor Factory -----------------------*/
+
+.mf h1 {
+  color: #FFFFFF;
+}
+
+.mf .title-main .divider {
+    background-color: #FFFFFF;
+}
+
+.mf .background-header-section {
+          background-image: url("mf-bg-image.jpg");
+          background-size: cover;
+          background-position: center center;
+}
+
+.mf .next-page-section p,
+.mf .blurb-section h4 {
+  color: #50586b;
+}
+
+
+.mf .blurb-section h5
+ {
+  color: #333333;
+}
+
+.mf .blurb-section .divider {
+  background-color: #3caeef;
+}
+
+.mf .next-page-section .divider
+{
+  background-color: #3caeef;
+}
+
+.mf .portfolio-image-spacer img {
+    margin-bottom: 2.5rem;
+}
+
+.mf .next-page-section {
+    background-color: #efefef;
+}
+
+.mf .footer {
+  background-color: #50586b;
+}
+
 
 /*------------- YNS -----------------------*/
 

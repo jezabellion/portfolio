@@ -295,7 +295,59 @@ YNS: #41b878
 MF: #50586b
     #3caeef
 
+Bitwala: #3caeef
+
 --*/
+
+
+/*------------- Bitwala -----------------------*/
+
+.bitwala h1 {
+  color: #FFFFFF;
+}
+
+.bitwala .title-main .divider {
+    background-color: #3caeef;
+}
+
+.bitwala .background-header-section {
+          background-image: url("bitwala-bg-image.jpg");
+          background-size: cover;
+          background-position: center center;
+}
+
+.bitwala .next-page-section p,
+.bitwala .blurb-section h4 {
+  color: #1d4477;
+}
+
+
+.bitwala .blurb-section h5
+ {
+  color: #333333;
+}
+
+.bitwala .blurb-section .divider {
+  background-color: #3caeef;
+}
+
+.bitwala .next-page-section .divider
+{
+  background-color: #3caeef;
+}
+
+.bitwala .portfolio-image-spacer img {
+    margin-bottom: 2.5rem;
+}
+
+.bitwala .next-page-section {
+    background-color: #e9eaed;
+}
+
+.bitwala .footer {
+  background-color: #1d4477;
+}
+
 
 /*------------- Meteor Factory -----------------------*/
 

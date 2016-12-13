@@ -1,3 +1,26 @@
+
+/*------------- Contact Form -----------------------*/
+
+input[type="text"],
+textarea[type="text"] {
+  border: 3px solid #FFF;
+  box-shadow: none;
+}
+
+input[type="text"]:focus,
+textarea[type="text"]:focus {
+  border-bottom: 5px solid #3caeef;
+
+}
+
+
+
+
+
+
+
+
+
 /*------------- Landing Page -----------------------*/
 
 /*-------- Landing Page Images -------*/

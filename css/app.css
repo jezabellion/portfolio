@@ -1,4 +1,100 @@
 
+/*------------- Resume CV -----------------------*/
+
+.cv .background-header-section {
+  margin-bottom: 120px;
+}
+
+.cv .contact p {
+  margin-bottom: 3px;
+      font-size: 0.9rem;
+      font-style: italic;
+      /*text-align: right;*/
+}
+
+.cv .blurb-section h4 {
+  font-style: italic;
+  text-align: left;
+  color: #333333;
+  margin-top: 0px;
+}
+
+/* ----------- Mobile ---------- */
+
+@media only screen and (max-width: 40em) {
+  .cv .background-header-section {
+    margin-bottom: 60px;
+  }
+
+  .cv .cv-section {
+    margin-bottom: 30px;
+  }
+}
+
+/*------------- Typography ----------------*/
+
+.cv p,
+.cv h5,
+.cv li {
+  text-align: left;
+}
+
+.cv-section p {
+margin-bottom: 3px;
+}
+
+.cv-section li {
+  color: grey;
+}
+
+.cv .cv-section p {
+  font-size: 1.0rem;
+}
+
+
+.cv .blurb-section {
+  padding-top: 0px;
+}
+
+.cv .blurb-section .divider {
+margin-left: 0px;
+  background: #2caae2;
+}
+
+.cv .blurb-section h4 span {
+  color: #2caae2;
+}
+
+.cv-section h4 {
+  margin-bottom: 0px !important;
+  text-align: left;
+  color: #333333;
+}
+
+.cv-section .divider {
+    width: 100%;
+    border: dotted 2px lightgrey;
+    margin-top: 0px;
+    background-color: transparent;
+}
+
+.cv .background-header-section {
+          background-image: url("resume-bg.jpg");
+          background-size: cover;
+          background-position: center;
+}
+
+.cv .blog-flex {
+  display: flex;
+  align-items: center;
+}
+
+
+.cv .background-header-section .divider {
+  background-color: #2caae2;
+}
+
+
 /*------------- Contact Form -----------------------*/
 
 input[type="text"],
@@ -12,14 +108,6 @@ textarea[type="text"]:focus {
   border-bottom: 5px solid #3caeef;
 
 }
-
-
-
-
-
-
-
-
 
 /*------------- Landing Page -----------------------*/
 
@@ -1079,6 +1167,7 @@ h5,
 h6,
 li span,
 .icon ul,
+li,
 p {
    font-family: 'Lora', serif;
    text-align: center;

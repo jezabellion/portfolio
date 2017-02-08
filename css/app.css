@@ -1,5 +1,26 @@
 /*Resume Typography*/
 
+.cv .hobbies h5 {
+  text-align: center;
+  font-style: italic;
+  margin-bottom: 30px;
+  color: #333333;
+}
+.cv .blurb-section h4 {
+font-size: 2.2rem;
+}
+
+.cv .hobbies .cv-section .contact p {
+    text-align: center;
+        font-size: 0.8rem;
+}
+
+
+h5#weddesignerheader {
+margin-top: 50px;
+}
+
+
 .hobbies .contact p {
   text-align: center;
   margin-top: 10px;
@@ -13,6 +34,25 @@
   color: #2caae2;
 }
 
+.cv .experience .contact p {
+  margin: 15px auto;
+}
+
+.content-section {
+  margin: 50px auto;
+}
+
+.cv .content-section h5 {
+  margin-bottom: 0px;
+}
+
+.cv .education .contact p {
+  margin-bottom: 20px;
+}
+
+.cv .experience h5:nth-child(2) {
+  color: pink;
+}
 
 /* --- Charts --- */
 
@@ -133,7 +173,8 @@ margin-left: 0px;
   background: #2caae2;
 }
 
-.cv .blurb-section h4 span {
+.cv .blurb-section h4 span,
+.cv h5 span {
   color: #2caae2;
 }
 

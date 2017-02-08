@@ -1,3 +1,22 @@
+/*Resume Typography*/
+
+.hobbies .contact p {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.cv a li {
+  color: #333333;
+}
+
+.cv a li:hover {
+  color: #2caae2;
+}
+
+
+/* --- Charts --- */
+
+
 .barchart {
   background-color: #e9e9e9;
   height: 1em;
